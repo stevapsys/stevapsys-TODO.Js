@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+.card {
+    max-width: 280px;
+    background-color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    border: 0px solid;
+    margin: 10px;
+}
+
+.card-body {
+    margin: 10px;
+}
+
+footer {
+    margin: 20px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
