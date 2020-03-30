@@ -8,20 +8,22 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container">
-        <main>
-            <div class="card">
-                <div class="card-body">
-                Essa seria uma tarefa
-                <button type="button" class="btn btn-info" id="finalizar">Finalizar tarefa</button>
-                </div>
-            </div>
+    <header class="bg-info ">
+        <div class=" navbar container navbar-dark">
+              <a class="navbar-brand" href="#">Lista de afazeres</a>
+              <h5 class="text-white">Olá, pessoa!</h5>
+          </nav>
+        </div>
+    </header>
+
+    <main class="container d-flex flex-wrap justify-content-center" >
+            
         </main>
         <br>
     </div>
-        <footer>
-            <input type="text" id="textoTarefa" class="form-control" placeholder="Escreva uma tarefa">
-            <button type="button"  class="btn btn-info btn-block" id="click">Adicionar nova tarefa</button>
+        <footer class="bg-info d-flex p-3 justify-content-center fixed-bottom">
+            <input type="text" id="textoTarefa" class="form-control w-50" placeholder="Escreva uma tarefa">
+            <button type="button"  class="btn btn-dark ml-2" id="click">Adicionar nova tarefa</button>
         </footer>
 
     <script src="JS/todo.js"></script>

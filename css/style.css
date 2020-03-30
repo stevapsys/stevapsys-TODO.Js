@@ -4,40 +4,26 @@
     padding: 0;
 }
 
-.container {
-    margin: 20px;
-    display: flex;
-    flex-wrap: wrap;
-}
 
 
 
 
 .card {
-    max-width: 280px;
+    width: 280px;
     background-color: aliceblue;
     text-align: center;
-    padding: 20px;
     border: 0px solid;
-    margin: 10px;
+    
 }
-
 .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: 10px;
 }
 
-footer {
-    margin: 20px;
-}
-
-button {
+.card-body button {
     margin-top: 10px;
 }
 
-.show {
-    display: block;
-}
 
-.hide {
-    display: none;
-}
